@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.nave .redes img {
+    width: 20px;
+}
+
+.redes .insta {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 29px;
+}
+
+.redes .what {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 29px;
+}
+
+.nave {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffffe3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nave ul{
+    display: flex;
+    justify-content: center;
+    line-height: 5;
+    margin-right: 2%;
+    width: 100%;
+    margin: 0;
+}
+
+.nave ul li {
+    margin-right: 2rem;
+}
+
+.nave a {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.nave a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    
+}
+
+.home {
+    text-align: center;
+    padding: 20px;
+}
+
+.home h1 {
+    font-family: 'Quicksand', sans-serif; 
+    margin-top: -120px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.home p {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.home .logo {
+    width: 35rem;
+    margin-top: -30px;
+    
+}
+
+.home .down {
+    width: 45px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+.down:hover{
+    transform: scale(1.3);
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, white);
+}
+
+.belo1 {
+    margin-top: 20px;
+    width: 650px;
+    box-shadow: #0000007c 2px, 2px, 50px;
+}
+
+.sobremim {
+    margin-top: 133px;
+    background-color: #f8f8f883;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 375px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: #0000007c 3px 2px 15px;
+}
+
+.sobremim h2 {
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.sobremim p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+   
+}
+
+.servicos {
+    background-image: linear-gradient(to top,whitesmoke, white);
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgserv {
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-bottom: 90px;
+}
+
+.serv1{
+    font-family: 'Quicksand', sans-serif; 
+    background-color: #204c7225;
+    padding: 30px;
+    border-radius: 20px;
+    width: 240px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-shadow: #0000007c 3px 2px 5px;
+    transition: transform 0.3s;
+}
+
+.serv1:hover{
+    transform: scale(0.9);
+}
+
+.serv1 img {
+    width: 50px;
+}
+
+.serv2 {
+    font-family: 'Quicksand', sans-serif; 
+    background-color: #99653f27;
+    padding: 30px;
+    border-radius: 20px;
+    width: 220px;
+    height: 150px;
+    box-shadow: #0000007c 3px 2px 5px;
+    transition: transform 0.3s;
+}
+
+.serv2:hover{
+    transform: scale(0.9);
+}
+
+.serv2 img {
+    width: 50px;
+}
+
+
+.box_um_servico {
+    display: flex;
+}
+
+.box_dois_servico {
+    display: flex;
+}
+
+.serv3 {
+    font-family: 'Quicksand', sans-serif; 
+    background-color: #204c7225;
+    padding: 30px;
+    border-radius: 20px;
+    width: 240px;
+    height: 150px;
+    box-shadow: #0000007c 3px 2px 5px;
+    transition: transform 0.3s;
+}
+
+.serv3:hover{
+    transform: scale(0.9);
+}
+
+.serv3 img {
+    width: 50px;
+}
+
+.serv4 {
+    font-family: 'Quicksand', sans-serif; 
+    background-color: #99653f27;
+    padding: 30px;
+    border-radius: 20px;
+    width: 220px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: #0000007c 3px 2px 5px;
+    transition: transform 0.3s;
+}
+
+.serv4:hover{
+    transform: scale(0.9);
+}
+
+.serv4 img {
+    width: 50px;
+}
+
+.pezin {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 65px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    bottom: 0;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.up {
+    position: relative;
+    filter: invert(100%);
+    margin-top: 10px;  
+    width: 20px;
+    transition: transform 0.3s;
+}
+
+.up:hover {
+    transform: scale(1.5);
+}
+
+.agendamentos {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h2 {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 35px;
+}
+
+.titulo h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formu {
+    font-family: 'Comfortaa', cursive;
+    width: 50%;
+}
+
+.left_agenda {
+    padding: 10px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.formu input {
+    width: 198%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    background: none
+}
+
+.formu textarea {
+    width: 198%;
+    height: 80px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.formu p {
+    margin-top: 30px;
+    margin-bottom: -52px;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(138, 137, 137);
+    letter-spacing: 1px;
+}
+
+.box_escolha {
+    padding-top: 65px;
+    width: 50%;
+    margin-top: 13px;
+}
+
+.box_escolha h2 {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif; 
+    text-align: center;
+
+}
+
+.escolhas {
+    margin-top: -35px;
+    padding: 20px;
+    border: 2px solid rgba(136, 136, 136, 0.473);
+    border-radius: 15px;
+    width: 240px;
+    margin-left: 27%;
+    background-color: #ffffffa1;
+}
+
+.escolhas label {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.escolhas select {
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    height: 25px;
+}
+
+.escolhas select option {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.escolhas label {
+    margin-top: 20px;
+}
+
+.escolhas .submit{
+    font-weight: bolder;
+    width: 100%;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+}
+
+select {
+    border: 1px solid rgba(54, 66, 104, 0.39);
+    outline: 0;
+    border-radius: 10px;
+}
