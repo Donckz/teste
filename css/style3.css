@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+/*
+font-family: 'Quicksand', sans-serif; 
+font-family: 'Comfortaa', cursive;
+font-family: 'Rubik', sans-serif;
+*/
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #202124;
+    justify-content: center;
+    text-align: center;
+}
+
+.box_cor {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 80px;
+    background-color: rgb(77, 184, 157);
+}
+
+.box_cor p {
+    color: rgb(77, 184, 157) !important;
+}
+
+.logo img {
+    width: 165px;
+    position: absolute;
+    margin-left: -530px;
+    margin-top: 22px;
+    transition: all 0.5s ease;
+}
+
+.title {
+    border: 2px solid rgb(77, 184, 157);
+    width: 1235px;
+    border-radius: 15px;
+    background-color: #191820;
+}
+
+.title h1{
+    position: relative;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(182, 182, 182);
+}
+
+.title p {
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botao_voltar {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color:#4db89d;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    margin-top: -105px;
+    margin-left: -20%;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.5s ease;
+}
+
+.botao_voltar:hover {
+    transform: scale(1.2);
+}
+
+.box_pessoas {
+    margin-top: 30px;
+    display: flex;
+}
+
+.box_pessoa_victor {
+    width: 13rem;
+    height: 23rem;
+    border: 2.9px solid rgb(77, 184, 157);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 5px;
+    background-color: #191820;
+}
+
+.box_pessoa_victor h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(77, 184, 157);
+}
+
+.box_pessoa_victor img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid #4db89d !important;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_victor img:hover {
+    transform: scale(1.1);
+}
+
+.box_pessoa_victor p {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.box_pessoa_victor .ico_victor{
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 4.3rem;
+    margin-top: -14px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_victor .ico_victor2 {
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 30px;
+    margin-top: -15px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_victor .ico_victor:hover , .box_pessoa_victor .ico_victor2:hover {
+    transform: scale(1.2);
+}
+
+.box_pessoa_joão {
+    width: 13rem;
+    height: 23rem;
+    border: 2.9px solid #A5A5A5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 5px;
+    background-color: #191820;
+}
+
+.box_pessoa_joão h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.box_pessoa_joão img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid #ffffff !important;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_joão img:hover {
+    transform: scale(1.1);
+}
+
+.box_pessoa_joão p {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.box_pessoa_joão .ico_joão{
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 4.3rem;
+    transition: all 0.5s ease;
+    margin-top: -2px;
+}
+
+.box_pessoa_joão .ico_joão2 {
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 30px;
+    transition: all 0.5s ease;
+    margin-top: -3px;
+}
+
+.box_pessoa_joão .ico_joão:hover , .box_pessoa_joão .ico_joão2:hover {
+    transform: scale(1.2);
+}
+
+.box_pessoa_flor {
+    width: 13rem;
+    height: 23rem;
+    border: 2.9px solid rgb(77, 184, 157);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 5px;
+    background-color: #191820;
+}
+
+.box_pessoa_flor h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(77, 184, 157);
+}
+
+.box_pessoa_flor img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid rgb(77, 184, 157) !important;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_flor img:hover {
+    transform: scale(1.1);
+}
+
+.box_pessoa_flor p {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.box_pessoa_flor .ico_flor{
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 4.3rem;
+    transition: all 0.5s ease;
+    margin-top: -2px;
+}
+
+.box_pessoa_flor .ico_flor2 {
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 30px;
+    transition: all 0.5s ease;
+    margin-top: -3px;
+}
+
+.box_pessoa_flor .ico_flor:hover , .box_pessoa_flor .ico_flor2:hover {
+    transform: scale(1.2);
+}
+
+.box_pessoa_julia {
+    width: 13rem;
+    height: 23rem;
+    border: 2.9px solid #A5A5A5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 5px;
+    background-color: #191820;
+}
+
+.box_pessoa_julia h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.box_pessoa_julia img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid #ffffff !important;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_julia img:hover {
+    transform: scale(1.1);
+}
+
+.box_pessoa_julia p {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.box_pessoa_julia .ico_julia{
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 4.3rem;
+    margin-top: 12px;
+    transition: all 0.5s ease;
+    margin-top: -2px;
+}
+
+.box_pessoa_julia .ico_julia2 {
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 30px;
+    margin-top: 12px;
+    transition: all 0.5s ease;
+    margin-top: -3px;
+}
+
+.box_pessoa_julia .ico_julia:hover, .box_pessoa_julia .ico_julia2:hover {
+    transform: scale(1.2);
+}
+
+.box_pessoa_artur {
+    width: 13rem;
+    height: 23rem;
+    border: 2.9px solid rgb(77, 184, 157);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 5px;
+    background-color: #191820;
+}
+
+.box_pessoa_artur h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(77, 184, 157);
+}
+
+.box_pessoa_artur img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid rgb(77, 184, 157) !important;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_artur img:hover {
+    transform: scale(1.1);
+}
+
+.box_pessoa_artur p {
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.box_pessoa_artur .ico_artur {
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 4.3rem;
+    margin-top: -8px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_artur .ico_artur2 {
+    position: absolute;
+    width: 28px;
+    border: 0 !important;
+    margin-left: 30px;
+    margin-top: -8px;
+    transition: all 0.5s ease;
+}
+
+.box_pessoa_artur .ico_artur2:hover , .box_pessoa_artur .ico_artur:hover{
+    transform: scale(1.2);
+}
